@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Source/grupo.png" alt="Simbolo de varias pessoas">
+            <h1>Lista de contatos</h1>
+        </header>
+        <nav>
+            <button id="menuButton" class="closed"><img src="./Source/menu_icon_150667.png" class="menu" alt="Icone de tres barrinhas"></button>
+            <button id="addContact"><img src="./Source/Simbolo de mais.jpg" alt="Simbolo de +"></button>
+            <button id="savedContacts"><img src="./Source/ios7-contact_icon-icons.com_50286.png" alt="Simbolo de uma pessoa"></button>
+        </nav>
+        <form id="addContact-form">
+            <input type="text" id="Nome" required placeholder="Nome do Contato">
+            <input type="number" id="Numero" required placeholder="Numero do Contato">
+            <button id="submitContact"><img placeholder="salvar" src="./Source/adicionar-usuario.png" alt="Simbolo de uma pessoa com um + ao seu lado"></button>
+        </form>
+        <div class="table">
+            <table id="table">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
