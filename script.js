@@ -64,5 +64,5 @@ form.addEventListener('submit', function(e) { // Adicionado o parâmetro 'e'
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
 
-    alert(`Nome: ${inputNome.value} - Numero: ${inputNumero.value}`)
+    alert(`Nome: ${inputNome.value} - Numero: ${inputNumero.value} adicionado a lista de contatos com sucesso.`)
 });
